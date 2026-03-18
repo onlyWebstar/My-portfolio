@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Iliemo Oghenemano | Full-Stack Developer</title>
 </head>
 <body>
- <!--  Header design -->
+
+  <!-- Header -->
   <header class="header">
     <a href="#" class="logo">Portfolio</a>
     <i class="fa-solid fa-bars" id="menu-icon"></i>
@@ -22,144 +22,167 @@
     </nav>
   </header>
 
-  <!--HOME SECTION DESIGN -->
+  <!-- HOME SECTION -->
   <section class="home" id="home">
     <div class="home-content">
-      <h3>Hello, World</h3>
+      <h3>Hello, World 👋</h3>
       <h1>Iliemo Oghenemano</h1>
-      <h3>I’m a <span id="multiple-text"></span> <p>with experience in building and maintaining both the front-end and back-end of web applications. </p></h3>
+      <h3>I'm a <span id="multiple-text"></span></h3>
+      <p class="home-desc">with experience in building and maintaining both the front-end and back-end of web applications.</p>
       <div class="social-media">
-        <a href="https://www.linkedin.com/in/iliemo-oghenemano-13a1a9262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.tiktok.com/@oghenemano1?_t=ZS-8z4Y7tuswML&_r=1"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="https://x.com/webking7364?t=iVbtdX_7Ehzg06VpaQw_Sg&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
-        <a href="https://github.com/onlyWebstar"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/iliemo-oghenemano-13a1a9262" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.tiktok.com/@oghenemano1" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://x.com/webking7364" target="_blank" aria-label="X / Twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+        <a href="https://github.com/onlyWebstar" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
       </div>
-      <a href="Files/resume.pdf" download="Myresume.pdf" class="btn">Download CV</a>
+      <a href="Files/resume.pdf" download="Myresume.pdf" class="btn">Download CV <i class="fa-solid fa-download"></i></a>
     </div>
     <div class="home-img">
-      <img src="Img/portfolio.jpg" class="circle-img" alt="">
+      <img src="Img/portfolio.jpg" class="circle-img" alt="Iliemo Oghenemano profile photo">
     </div>
   </section>
-  <!--ABOUT SECTION DESIGN -->
+
+  <!-- ABOUT SECTION -->
   <section class="about" id="about">
-
-    <div class="about-content">
-      <h2 class="heading">ABOUT<span>me</span></h2>
-      <h3>Fulstack Developer</h3>
-      <p>I'm full-stack developer who is skilled in both front-end and back-end <span id="moreText1" style="display: none; color: white;">development, capable of building entire web applications from start to finish.</span></p>
-      <a href="#" id="showBtn1" class="btn">Read more</a>
-    </div>
     <div class="about-img">
-      <img src="Img/aboutpic.jpg" alt="">
+      <img src="Img/aboutpic.jpeg" alt="About photo">
     </div>
-
+    <div class="about-content">
+      <h2 class="heading">ABOUT <span>Me</span></h2>
+      <h3>Full-Stack Developer</h3>
+      <p>I'm a full-stack developer skilled in both front-end and back-end
+        <span id="moreText1" style="display: none; color: white;">development, capable of building complete web applications from start to finish. I love turning ideas into functional, elegant digital products.</span>
+      </p>
+      <a href="#" id="showBtn1" class="btn">Read More</a>
+    </div>
   </section>
+
+  <!-- SERVICES SECTION -->
   <section class="services" id="services">
-    <h2 class="heading">My<span>Services</span></h2>
+    <h2 class="heading">My <span>Services</span></h2>
     <div class="services-container">
+
       <div class="services-box">
         <i class="fa-solid fa-code"></i>
-        <h3>Web Developent</h3>
-        <p>I develop websites for large and small scale business, <span id="moreText" style="display: none; color= white;">im skilled with react.js, PHP, mySQL, Django, and flask rest frame work</span></p>
-        <a  class="btn" href="#" id="showBtn2">Read More</a>
+        <h3>Web Development</h3>
+        <p>I develop websites for large and small-scale businesses.
+          <span id="moreText" style="display: none; color: white;">I'm skilled with React.js, PHP, MySQL, Django, and the Flask REST framework.</span>
+        </p>
+        <a class="btn" href="#" id="showBtn2">Read More</a>
       </div>
+
       <div class="services-box">
         <i class="fa-brands fa-python"></i>
-        <h3>Python programming</h3>
-        <p>I'm a python programmer, i can perfrom web scraping, <span id="moreText2" style="display: none; color= white;">build a telegram bot and also use common libraries such as Django, openCV</span></p>
+        <h3>Python Programming</h3>
+        <p>I'm a Python programmer who can perform web scraping,
+          <span id="moreText2" style="display: none; color: white;">build Telegram bots, and work with popular libraries such as Django and OpenCV.</span>
+        </p>
         <a class="btn" href="#" id="showBtn3">Read More</a>
       </div>
+
       <div class="services-box">
         <i class="fa-solid fa-palette"></i>
         <h3>UI/UX Design</h3>
-        <p>Designing landing page for small, <span id="moreText3" style="display: none; color= white;"> medium and large scale businesses. Topnotch and mordern designs to make your products stand out </span></p>
-        <a  class="btn" href="#" id="showBtn4">Read More</a>
+        <p>Designing landing pages for small,
+          <span id="moreText3" style="display: none; color: white;">medium, and large-scale businesses. Top-notch, modern designs to make your products stand out.</span>
+        </p>
+        <a class="btn" href="#" id="showBtn4">Read More</a>
       </div>
+
     </div>
   </section>
 
+  <!-- PORTFOLIO SECTION -->
   <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest<span>Projects</span></h2>
+    <h2 class="heading">Latest <span>Projects</span></h2>
     <div class="portfolio-container">
-    <div class="portfolio-box">
-      <img src="Img/1.jpg" alt="">
-      <div class="portfolio-layer">
-        <h4>Wealthvantage | Modern Investment Platform UX/UI</h4>
-        <p>A modern, secure, and user-centric interface for an investment brokerage. Designed to build trust and simplify complex financial data, enabling users to manage their portfolios with clarity and confidence.</p>
-        <a href="https://wealthvantages.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+      <div class="portfolio-box">
+        <img src="Img/1.jpg" alt="Wealthvantage Investment Platform">
+        <div class="portfolio-layer">
+          <h4>Wealthvantage | Investment Platform UX/UI</h4>
+          <p>A modern, secure, user-centric interface for an investment brokerage — built to build trust and simplify complex financial data.</p>
+          <a href="https://wealthvantages.com/" target="_blank" aria-label="View project"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-box">
-      <img src="Img/2.jpg" alt="">
-      <div class="portfolio-layer">
-        <h4>AI-Powered Telegram Assistant</h4>
-        <p>A intelligent Telegram chatbot powered by OpenAI's API. It brings advanced AI conversational capabilities directly into the Telegram messaging platform, providing users with a seamless and powerful AI assistant on-the-go</p>
-        <a href="https://github.com/onlyWebstar/Tele-Assistant.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+      <div class="portfolio-box">
+        <img src="Img/2.jpg" alt="AI Telegram Assistant">
+        <div class="portfolio-layer">
+          <h4>Telegram based Flight Recommender system</h4>
+          <p>Developed a ﬂight recommender chatbot using Python, spaCy NLP, and PostgreSQL which achieved 87% query accuracy and 38% faster response 
+          times than most commercial alternatives through multi-factor personalization algorithms and intelligent caching strategies.</p>
+          <a href="https://github.com/onlyWebstar/travel-bot.git" target="_blank" aria-label="View project"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-box">
-      <img src="Img/3.jpg" alt="">
-      <div class="portfolio-layer">
-        <h4>Ethical Web Scraping</h4>
-        <p>Developed a Python scraping tool using BeautifulSoup to systematically extract a structured dataset of films, including titles, release years, and ratings, from a public website in compliance with its robots.txt and terms of service. The project demonstrates skills in data collection, parsing, and ethical web scraping.</p>
-        <a href="https://github.com/onlyWebstar/Ethical-Web-Scraping-.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+      <div class="portfolio-box">
+        <img src="Img/3.jpg" alt="Ethical Web Scraping">
+        <div class="portfolio-layer">
+          <h4>Ethical Web Scraping</h4>
+          <p>A Python scraping tool using BeautifulSoup to extract a structured film dataset, demonstrating responsible data collection and parsing.</p>
+          <a href="https://github.com/onlyWebstar/Ethical-Web-Scraping-.git" target="_blank" aria-label="View project"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-box">
-      <img src="Img/4.jpg" alt="">
-      <div class="portfolio-layer">
-        <h4>Simple HTML & CSS Responsive Landing page</h4>
-        <p>A clean, responsive website built with semantic HTML and custom CSS. Features a mobile-first approach, ensuring a seamless experience across all devices. Focused on performance, accessibility, and clean code.</p>
-        <a href="https://onlywebstar.github.io/Webstar-/"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+      <div class="portfolio-box">
+        <img src="Img/4.jpg" alt="Responsive Landing Page">
+        <div class="portfolio-layer">
+          <h4>Nexus Gaming Forum</h4>
+          <p>a full-stack gaming community platform I've been building! This project showcases modern web development with real-time discussion features, user authentication, and game database management.</p>
+          <a href="https://game-forum-alpha.vercel.app/" target="_blank" aria-label="View project"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-box">
-      <img src="Img/5.jpg" alt="">
-      <div class="portfolio-layer">
-        <h4>Portfolio Website | Vanilla Js</h4>
-        <p>This portfolio was engineered with a focus on modern front-end principles. Instead of relying on a heavy framework, I utilized vanilla JavaScript for robust functionality and custom CSS for a unique, responsive design.</p>
-        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+
+      <div class="portfolio-box">
+        <img src="Img/5.jpg" alt="Portfolio Website">
+        <div class="portfolio-layer">
+          <h4>Portfolio Website | Vanilla JS</h4>
+          <p>This portfolio was engineered with vanilla JavaScript for robust functionality and custom CSS for a unique, responsive design — no heavy frameworks needed.</p>
+          <a href="#" aria-label="View project"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-box">
-      <img src="Img/6.jpg" alt="">
-      <div class="portfolio-layer">
-        <h4>FinTech Mobile Dashboard</h4>
-        <p>This mobile banking screen was designed with a core principle: financial clarity at a glance. The hierarchy immediately surfaces the most critical user data—the current account balance and net spend, before seamlessly guiding the user to actionable next steps (Send/Receive).</p>
-        <a href="https://www.figma.com/design/CVLub4FXhmNWthttJbvhYL/Iliemo-oghenemano-Emmanuel?node-id=0-1&t=GYg9d9rvK9DmctGx-1"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+      <div class="portfolio-box">
+        <img src="Img/6.jpg" alt="FinTech Mobile Dashboard">
+        <div class="portfolio-layer">
+          <h4>Supply Chain Command: Agent-Based Bullwhip Effect Simulator</h4>
+          <p>Developed a production-grade interactive simulation platform demonstrating the Bullwhip Effect in supply chains, how small demand ﬂuctuations cause exponentially larger order volatility upstream. Built across ﬁve iterative development phases progressing from pure simulation engine to full analytical platform with persistent storage and auto-generated intelligence reports.</p>
+          <a href="https://www.figma.com/design/CVLub4FXhmNWthttJbvhYL/Iliemo-oghenemano-Emmanuel?node-id=0-1" target="_blank" aria-label="View project"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
       </div>
-    </div>
+
     </div>
   </section>
 
+  <!-- CONTACT SECTION -->
   <section class="contact" id="contact">
-    <h2 class="heading">Contact<span>Me</span></h2>
+    <h2 class="heading">Contact <span>Me</span></h2>
     <form action="https://formspree.io/f/xzzaynvy" method="POST">
       <div class="input-box">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
       </div>
       <div class="input-box">
-      <textarea name="message" id="" rows="10" cols="30" placeholder="Your message"></textarea>
+        <textarea name="message" rows="10" cols="30" placeholder="Your message" required></textarea>
       </div>
-      <input type="submit" value="Send message" class="btn">
+      <input type="submit" value="Send Message" class="btn">
     </form>
-
   </section>
 
-  <!--footer design -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-text">
-      <p>Copyright &copy; 2025 by @Oghenemano | All rights Reserved </p>
+      <p>Copyright &copy; 2025 by @Oghenemano | All Rights Reserved</p>
     </div>
     <div class="footer-iconTop">
-      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      <a href="#home" aria-label="Back to top"><i class="fa-solid fa-angle-up"></i></a>
     </div>
   </footer>
+
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="/main.js"></script>
-
+  <script src="main.js"></script>
 
 </body>
 </html>
